@@ -1,6 +1,7 @@
 name: servicemp3
 
 on:
+  workflow_dispatch:
   push:
     branches: [ python3 ]
   pull_request:
